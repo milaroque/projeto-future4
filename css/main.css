@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial;
+}
+
+.header {
+  background-color: #cc4d00;
+  padding:1px;
+  text-align: center;
+  color: white;
+}
+
+.backpurple {
+background-color: #585e95;
+color: white;
+display: flow-root;
+margin: auto;
+text-align: center;
+}
+
+.backpurple > .logo {
+text-align: center;
+position: relative;
+top: 80px;
+
+}
+
+.backpurple > .webfull {
+  background-color: #769ee5;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  padding: 35px;
+  width: 70px;
+  height: 40px;
+  font-size: 100%;
+  position: relative;
+  top: 150px;
+}
+
+.backpurple > .mobile {
+    background-color: #9ec284;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    padding: 35px;
+    width: 70px;
+    height: 40px;
+    font-size: 100%;
+    position: relative;
+    top: 150px;
+    left: 5px
+}
+
+.backpurple > .data {
+  background-color: #d26d6a;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  padding: 35px;
+  width: 70px;
+  height: 40px;
+  font-size: 100%;
+  position: relative;
+  top: 150px;
+  left: 10px;
+}
+
+.footer {
+  padding: 45px;
+  background-color: #d8d8d8;
+  text-align: center;
+}
+
+.button {
+  background-color: #cc4d00;
+  color: white;
+  height: 34px;
+  margin-left: -6px;
+  border: 0.7px solid #808080
+}
+
+.email {
+width: 245px;
+height:30px;
+background-color: white;
+border: 0.7px solid #808080;
+}
+
+@media screen and (max-width: 700px) {
+  .header {
+    flex-direction: column;
+  }
+  .back, .footer {
+    flex-direction: row;
+  }
+}
